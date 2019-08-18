@@ -16,6 +16,9 @@
          "sudo yum install jenkins -y",
          "sudo systemctl start jenkins"
        ]
+     },
+     {
+        "type": "debug-breakpoint"
      }
   ]
 }
