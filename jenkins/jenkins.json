@@ -3,7 +3,7 @@
     "type": "amazon-ebs",
     "region": "us-west-2",
     "source_ami": "ami-082b5a644766e0e6f",
-    "instance_type": "t2.micro",
+    "instance_type": "m5.large",
     "ssh_username": "ec2-user",
     "ami_name": "jenkins ami {{timestamp}}"
   }],
