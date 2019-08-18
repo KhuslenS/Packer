@@ -5,7 +5,6 @@
     "source_ami": "ami-082b5a644766e0e6f",
     "instance_type": "m5.large",
     "ssh_username": "ec2-user",
-    "ssh_keypair_name": "MyMac1",
     "ami_name": "jenkins-ami {{timestamp}}"
   }],
   "provisioners": [{
