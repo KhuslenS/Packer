@@ -22,8 +22,8 @@
        ]
      },
      {
-        "type": "file"
-        "source": "test_file"
+        "type": "file",
+        "source": "test_file",
         "destinitaion": "jenkins/test_file"
      }
   ]
