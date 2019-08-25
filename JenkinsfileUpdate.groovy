@@ -54,12 +54,6 @@ pipeline{
                 }
             }
         }
-        stage("Pull Repo"){
-            steps{
-                git("https://github.com/Khuslentuguldur/Packer.git")
-                sh "ls"
-            }
-        }
         stage("Build Image"){
             steps{
                 // sh "packer build updated/updated.json"
