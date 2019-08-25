@@ -56,7 +56,7 @@ pipeline{
         }
         stage("Build Image"){
             steps{
-                sh 'packer build -var "region=${REGION}" -var "source_ami=${SOURCE_AMI}" updated/updated.json'
+                sh 'packer build -var "region=${REGION}" updated/updated.json'
                 sh "ls"
             }
         }
